@@ -1,0 +1,43 @@
+<div class="row">
+  <div class="small-12 medium-8 columns">
+    <h3>Blow are the exlusive games of PS4, please select your favourites</h3>
+    <ul class="product-list">
+      <li *ngFor="let product of products | async"
+          class="product-container">
+          <div class="row">
+            <div class="medium-5 columns text-center">
+              <img src="./assets/{{product.id}}.jpg"
+                   class="product_image"/>
+            </div>
+            <div class="medium-9  columns">
+              <h4>
+                <span class="text--bold js-product-name">{{product.name}}</span>
+                <small class="product_price js-product-price text--red"  >{{product.price | currency:'USD':true}}</small>
+              </h4>
+              <p class="js-product-desc">{{product.description}}</p>
+              <p>
+                <span class="text--bold text--red">game ranking:</span>
+                <br/>
+                <span *ngFor="let game of product.games" >
+                  <ul><li>{{game.institution}} {{game.score}}</li></ul>
+                  <br/>
+                </span>
+              </p>
+              <p>
+                <button type="button"
+                        class="button success"
+                        (click)="addProductToCart(product, 1)">Add To Cart</button>
+                <button type="button"
+                        class="button small js-btn-remove"
+                        *ngIf="productInCart(product) | async"
+                        (click)="removeProductFromCart(product, 1)">Remove item from cart</button>
+              </p>
+            </div>
+          </div>
+      </li>
+    </ul>
+  </div>
+  <div class="small-10 medium-5 columns">
+    <app-shopping-cart></app-shopping-cart>
+  </div>
+</div>

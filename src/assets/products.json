@@ -1,0 +1,104 @@
+[
+  {
+    "id": "111",
+    "price": 19.99,
+    "name": "Nioh",
+    "description":"Nioh is an action role-playing game set in Japan during the year 1600, with players taking the role of an Irish samurai named William.The player guides William on missions through enclosed environments fighting both human enemies and supernatural beings called yokai: missions are self-contained, hold alternate routes William can navigate, and selected from a menu rather than reached by navigating an open world.",
+     "games": [
+      {
+        "institution": "steam",
+        "score": 7
+      },
+      {
+        "institution": "IGN",
+        "score": 8.8
+      }
+
+    ]
+  },
+  {
+    "id": "222",
+    "price": 19.99,
+    "name": "Horizon Zero Down",
+    "description": "Horizon Zero Dawn is an action role-playing game played from a third-person view.Players take control of Aloy, a hunter who ventures through a post-apocalyptic land ruled by robotic creatures.",
+    "games": [
+      {
+        "institution": "IGN",
+        "score": 9.3
+      },
+      {
+        "institution": "EGM",
+        "score": 9
+      }
+
+    ]
+  },
+  {
+    "id": "666",
+    "price": 9.99,
+    "name": "Uncharted:a thief's end",
+    "description": "Uncharted 4: A Thief's End is an action-adventure game played from a third-person perspective, with platforming elements. The player assumes control of Nathan Drake, who is physically adept and is able to jump, sprint, climb, swim, scale narrow ledges and wall-faces to get between points, swing with a rope, use a grappling hook and perform other acrobatic actions.",
+    "games": [
+      {
+        "institution": "IGN",
+        "score": 9
+      },
+      {
+        "institution": "EGM",
+        "percentage": 9
+      }
+
+    ]
+  },
+  {
+    "id": "444",
+    "price": 19.99,
+    "name": "Marvel: Spider-man",
+    "description": "Spider-Man is an action-adventure game set in an open world modern-day New York City and played from a third-person perspective. It features combat systems such as aerial combat, Spider Sense reflexes, web-shooting, and finishing moves.",
+    "games": [
+      {
+        "institution": "IGN",
+        "score": 9
+      },
+      {
+        "institution": "EGM",
+        "score": 9
+      }
+
+    ]
+  },
+  {
+    "id": "555",
+    "price": 19.99,
+    "name": "God of War",
+    "description": "God of War is an action-adventure video game developed by Santa Monica Studio and published by Sony Interactive Entertainment (SIE). Released on April 20, 2018, for the PlayStation 4 (PS4) console, it is the eighth installment in the God of War series, the eighth chronologically, and the sequel to 2010's God of War III. Unlike previous games, which were loosely based on Greek mythology, this game is loosely based on Norse mythology.",
+    "games": [
+      {
+        "institution": "IGN",
+        "score": 9.3
+      },
+      {
+        "institution": "EGM",
+        "score": 9.5
+      },
+      {
+        "id":"666",
+        "price":29.99,
+        "name":"Red Dead Redemption 2",
+        "description":"Red Dead Redemption 2 is an action-adventure game developed and published by Rockstar Games. The game is a prequel to the 2010 game Red Dead Redemption, and the third entry in the Western-themed Red Dead series. Set in 1899, it follows the story of outlaw Arthur Morgan, a member of the Van der Linde gang, and also details the time of a younger John Marston in the same gang and his eventual departure.",
+        "games":[
+          {
+            "institution":"IGN",
+            "score":9.6
+          },
+          {
+            "institution":"EGM",
+            "score":8.8
+          }
+
+        ]
+
+      }
+    ]
+  }
+]
